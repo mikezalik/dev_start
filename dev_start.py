@@ -2,7 +2,7 @@
 
 import subprocess
 
-print("Hello Michael, let me start the apps you need...")
+print("Starting Spotify, Chromium, Code and Slack...")
 
 subprocess.run("/snap/bin/spotify")
 subprocess.run("/snap/bin/chromium")
