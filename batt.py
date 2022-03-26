@@ -2,5 +2,6 @@
 
 import subprocess
 
-subprocess.run("upower -i /org/freedesktop/UPower/devices/battery_BAT1")
+subprocess.run("neofetch")
+subprocess.run(["upower", "-i", "/org/freedesktop/UPower/devices/battery_BAT1"])
 
